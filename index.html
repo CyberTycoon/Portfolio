@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Government Contract Expert helping businesses succeed with tailored services.">
+  <meta property="og:title" content="Sylvia Lark - Government Contract Expert">
+  <meta property="og:description" content="Helping businesses navigate and secure government contracts with ease.">
+  <meta property="og:image" content="/path-to-image.jpeg">
+
+  <title>Sylvia Lark</title>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fade-in {
+      animation: fadeIn 1s ease-out;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+ <!-- Header -->
+<header id="home" class="bg-gradient-to-r from-blue-600 to-blue-800 text-white fixed w-full z-10 shadow-lg">
+  <nav class="bg-blue-800 p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <!-- Logo -->
+      <a href="#" class="text-2xl font-bold">Sylvia Lark</a>
+
+      <!-- Hamburger Icon -->
+      <button id="menu-toggle" class="text-white md:hidden focus:outline-none">
+        <!-- Default Hamburger Icon -->
+        <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <!-- Cross Icon -->
+        <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden" fill="none"
+          viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+        <!-- Navigation Links (Hidden by Default) -->
+  <ul id="" class="hidden md:flex p-4 flex-col md:flex-row space-x-6 text-white">
+    <li><a href="#home" class="block hover:text-gray-300">Home</a></li>
+    <li><a href="#about" class="block hover:text-gray-300">About</a></li>
+    <li><a href="#services" class="block hover:text-gray-300">Services</a></li>
+    <li><a href="#portfolio" class="block hover:text-gray-300">Portfolio</a></li>
+    <li><a href="#contact" class="block hover:text-gray-300">Contact</a></li>
+  </ul>
+    </div>
+  </nav>
+
+  <!-- Navigation Links (Hidden by Default) -->
+  <ul id="menu" class="hidden bg-blue-700 p-4 flex-col space-y-4 text-white">
+    <li><a href="#home" class="block hover:text-gray-300">Home</a></li>
+    <li><a href="#about" class="block hover:text-gray-300">About</a></li>
+    <li><a href="#services" class="block hover:text-gray-300">Services</a></li>
+    <li><a href="#portfolio" class="block hover:text-gray-300">Portfolio</a></li>
+    <li><a href="#contact" class="block hover:text-gray-300">Contact</a></li>
+  </ul>
+</header>
+
+  <!-- Hero Section -->
+  <section id="home"
+    class="bg-gradient-to-b px-7 from-blue-600 to-blue-800 text-white py-20 min-h-screen flex items-center justify-center">
+    <div class="text-center fade-in">
+      <h2 class="text-5xl font-bold mb-4">Government Contract Expert</h2>
+      <p class="text-lg mb-6">Expert solutions for navigating government contracts with ease.</p>
+      <a href="#contact"
+        class="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg text-lg font-semibold shadow-lg hover:bg-gray-100">Get
+        Started</a>
+    </div>
+    <div class="absolute bottom-5 w-full text-center">
+      <a href="#about" class="text-white hover:opacity-80">▼ Scroll Down</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="px-7 py-20">
+    <div class="container mx-auto flex items-center justify-between space-x-6">
+      <!-- Text Content -->
+      <div class="fade-in w-[50%]">
+        <h2 class="text-4xl font-bold text-blue-800 mb-4 w-[100%]">About Me</h2>
+        <p class=" text-gray-700 text-lg mb-4">I bring years of experience in government contracting, helping businesses
+          secure contracts and ensure compliance. With a results-driven approach, I simplify complex processes to drive
+          success.</p>
+        <a href="#contact"
+          class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium shadow-md hover:bg-blue-700">Contact
+          Me</a>
+      </div>
+
+      <!-- Image -->
+      <div class="fade-in w-[50%]">
+        <img src="/images/sylvia lark.jpeg" alt="About Sylvia Lark"
+          class="w-48 mx-auto h-auto justify-center float-left mr-4 rounded-lg shadow-lg">
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Services Section -->
+  <section id="services" class="bg-gray-100 px-7 py-20">
+    <div class="container mx-auto text-center fade-in">
+      <h2 class="text-4xl font-bold text-blue-800 mb-6">Services</h2>
+      <p class="text-gray-700 text-lg mb-10">Tailored services to help businesses navigate and succeed in government
+        contracting.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition">
+          <h3 class="text-xl font-bold text-blue-600 mb-2">Proposal Writing</h3>
+          <p class="text-gray-700">Crafting winning proposals tailored to specific government requirements.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition">
+          <h3 class="text-xl font-bold text-blue-600 mb-2">Contract Compliance</h3>
+          <p class="text-gray-700">Ensuring your business adheres to all regulatory requirements.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition">
+          <h3 class="text-xl font-bold text-blue-600 mb-2">SAM.gov Registration</h3>
+          <p class="text-gray-700">Guiding you through seamless SAM.gov registration processes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-20 px-7">
+    <div class="container mx-auto text-center fade-in">
+      <h2 class="text-4xl font-bold text-blue-800 mb-6">Portfolio</h2>
+      <p class="text-gray-700 text-lg mb-8">Discover impactful projects and successful contracts I’ve worked on.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Portfolio Item 1 -->
+        <a href="/files/Acofla LLC Proposal for Janitorial and Facility Maintenance Services.pdf" download>
+          <img src="images/acofla.png" alt="Project 1"
+            class="rounded-lg h-[100%] shadow-lg hover:scale-105 transition transform">
+        </a>
+        <!-- Portfolio Item 2 -->
+        <a href="/files/Custis International INC Proposal 1 (AutoRecovered).pdf" download>
+          <img src="images/custis.png" alt="Project 2"
+            class="rounded-lg shadow-lg h-[100%] hover:scale-105 transition transform">
+        </a>
+        <!-- Portfolio Item 3 -->
+        <a href="/files/Proposal For Paint and Protective Coating IDIQ - Shaw AFB.pdf" download>
+          <img src="images/custis2.png" alt="Project 3"
+            class="rounded-lg h-[100%] shadow-lg hover:scale-105 transition transform">
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gradient-to-r from-blue-600 px-7 to-blue-800 text-white py-20">
+    <div class="container mx-auto text-center fade-in">
+      <h2 class="text-4xl font-bold mb-6">Contact Me</h2>
+      <p class="text-lg mb-8">Ready to get started? Send me a message today!</p>
+      <form id="contact-form" class="grid grid-cols-1 text-black gap-4 max-w-md mx-auto">
+        <input type="text" name="name" placeholder="Your Name" class="p-3 rounded-lg" required>
+        <input type="email" name="email" placeholder="Your Email" class="p-3 rounded-lg" required>
+        <textarea name="message" rows="4" placeholder="Your Message" class="p-3 rounded-lg" required></textarea>
+        <button type="submit" id="submit-button"
+          class="bg-gray-200 hover:bg-blue-600 text-blue-600 py-3 rounded-lg hover:bg-gray-300">
+          Send Message
+        </button>
+
+      </form>
+      <div id="response-message" class="text-sm mt-4 text-gray-300 font-bold text-2xl"></div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-4">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Sylvia Lark. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script>
+
+const menuToggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('menu');
+  const menuIcon = document.getElementById('menu-icon');
+  const closeIcon = document.getElementById('close-icon');
+
+  menuToggle.addEventListener('click', () => {
+    // Toggle visibility of the menu
+    menu.classList.toggle('hidden');
+    menu.classList.toggle('flex');
+
+    // Switch between hamburger and cross icons
+    menuIcon.classList.toggle('hidden');
+    closeIcon.classList.toggle('hidden');
+  });
+
+
+    // Initialize EmailJS
+    emailjs.init('Hm4VQN0XygDRC80bP');
+
+    // Form submission handler
+    const form = document.getElementById('contact-form');
+    const responseMessage = document.getElementById('response-message');
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const submitButton = document.getElementById('submit-button');
+      submitButton.disabled = true;
+      submitButton.textContent = 'Sending...';
+
+      emailjs.sendForm('service_odtn7gv', 'template_rd62j8x', form)
+        .then(() => {
+          responseMessage.textContent = 'Message sent successfully!';
+          responseMessage.style.color = 'white';
+          form.reset();
+          submitButton.disabled = false;
+          submitButton.textContent = 'Send Message';
+        })
+        .catch((error) => {
+          responseMessage.textContent = 'Failed to send the message. Please try again.';
+          responseMessage.style.color = 'red';
+          submitButton.disabled = false;
+          submitButton.textContent = 'Send Message';
+          console.error('EmailJS error:', error);
+        });
+    });
+
+  </script>
+
+</body>
+
+</html>
